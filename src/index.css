@@ -7,4 +7,6 @@
   --color-neutral-light-gray: hsl(217, 12%, 63%);
   --color-neutral-dark-blue: hsl(213, 19%, 18%);
   --color-neutral-very-dark-blue: hsl(216, 12%, 8%);
+  --color-star:#213141;
+  --color-button: #252F38;
 }

@@ -1,35 +1,22 @@
-
+import { useState } from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import Rating from "./Rating";
+import ThankYou from "./ThankYou";
 
 function App() {
-  
+  const [rating, setRating] = useState(0);
 
   return (
-    <>
-    {/* Rating state start  */}
-
-How did we do?
-
-Please let us know how we did with your support request. All feedback is appreciated 
-to help us improve our offering!
-
-1 2 3 4 5
-
-Submit
-
-{/* Rating state end  */}
-
-{/* Thank you state start  */}
-
-{/* You selected Add rating here  out of 5 */}
-
-Thank you!
-
-We appreciate you taking the time to give a rating. If you ever need more support, 
-don’t hesitate to get in touch!
-
-{/* Thank you state end  */}
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Rating setRating={setRating} />} />
+        <Route
+          path="/thank-you"
+          element={rating ? <ThankYou rating={rating} /> : <Navigate to="/" />}
+        />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
