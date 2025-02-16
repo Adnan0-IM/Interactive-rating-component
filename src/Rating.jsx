@@ -28,12 +28,12 @@ const Rating = ({ setRating }) => {
         <h1 className="text-neutral-white text-2xl sm:text-3xl font-medium mt-2">
           How did we do?
         </h1>
-        <p className="text-sm leading-6">
+        <p className=" leading-6">
           Please let us know how we did with your support request. All feedback
           is appreciatedgap-4 to help us improve our offering!
         </p>
         <div className="flex justify-between sm:gap-6 mt-2">
-          {" "}
+          
           {ratings.map((rating) => {
             return (
               <button

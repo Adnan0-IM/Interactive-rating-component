@@ -9,7 +9,7 @@ const ThankYou = ({rating}) => {
     <div className="flex items-center justify-center mt-2"> <img src={illustratiion} alt="illustration thank you" /></div>
      <h3 className="bg-gray-700 text-primary-orange text-xs sm:text-sm px-3 py-2 font-semibold w-fit mx-auto rounded-full mt-2">You selected {rating} out of 5</h3>
      <h1 className="text-neutral-white text-2xl sm:text-3xl font-medium mt-2">Thank you!</h1>
-     <p className="text-sm leading-6 text-neutral-light-gray mb-2">
+     <p className=" leading-6 text-neutral-light-gray mb-2">
        We appreciate you taking the time to give a rating. If you ever need
        more support, don’t hesitate to get in touch!
      </p>
