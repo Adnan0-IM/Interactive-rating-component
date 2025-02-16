@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/Adnan0-IM/tip-calculator-app)
-- Live Site URL: [Live Demo](https://tip-calculator-r.netlify.app/)
+- Solution URL: [Solution](https://github.com/Adnan0-IM/Interactive-rating-component)
+- Live Site URL: [Live Demo](https://interactive-ratin-component.netlify.app/)
 
 ## My process
 
